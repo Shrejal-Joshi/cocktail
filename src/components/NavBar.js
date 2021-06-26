@@ -42,7 +42,7 @@ function NavBar ()
                                 <Link to="/" >Home</Link> </li>
                                <li> <Link to="/categories" >Categories </Link></li>
                                <li><Link to="/aboutus">About Us</Link></li>
-                               <li><Link to="/contactus">ContactUs</Link></li>
+                               {/* <li><Link to="/contactus">ContactUs</Link></li> */}
  
                         </ul>
                     </div>
