@@ -51,7 +51,7 @@ function SingleDrink() {
     <div className="single-main-container">
        <div className="loading-bar-container">
          {
-           loading ? ( <img src={loadingbar}/>): (<div></div>)
+           loading ? ( <img src={loadingbar} alt="loading"/>): (<div></div>)
          }
         
 

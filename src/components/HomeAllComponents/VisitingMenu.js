@@ -16,7 +16,7 @@ function VisitingMenu() {
               </ul>
          </div>
          <div className="visiting-bar-container">
-           <img src={cafeBar} />
+           <img src={cafeBar} alt="bar" />
 
         </div>
          <div className="visiting-offers-container">

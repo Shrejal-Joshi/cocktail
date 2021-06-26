@@ -52,10 +52,7 @@ function Categories() {
 
   console.log(getOrdinaryList);
 
-  const handleSingleData = (idDrink)=>
-  {
-     
-  }
+ 
 
   return (
     <>
@@ -71,7 +68,7 @@ function Categories() {
 
        <div className="loading-bar-container">
          {
-           loading ? ( <img src={loadingbar}/>): (<div></div>)
+           loading ? ( <img src={loadingbar} alt="loading"/>): (<div></div>)
          }
         
 
@@ -99,7 +96,7 @@ function Categories() {
                 
                 <div className="image-container" >
 
-                    <img src={item.strDrinkThumb}/>
+                    <img src={item.strDrinkThumb} alt="drink"/>
                     <p className="drink-info">{item.strDrink}</p>
 
 

@@ -45,7 +45,7 @@ function PopularDrinks() {
 
       <div className="loading-bar-container">
          {
-           loading ? ( <img src={loadingbar}/>): (<div></div>)
+           loading ? ( <img src={loadingbar} alt="loading"/>): (<div></div>)
          }
         
 
@@ -63,7 +63,7 @@ function PopularDrinks() {
               
                 <div className="margarita-img-container" >
 
-                    <img src={item.strDrinkThumb}/>
+                    <img src={item.strDrinkThumb} alt="drink"/>
                   
                     </div>
 

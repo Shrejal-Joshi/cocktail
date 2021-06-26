@@ -1,6 +1,5 @@
 import React, {useEffect,useState} from 'react';
 import loadingbar from '../../images/loadingbar.gif';
-import {slice, concat,LENGTH} from 'lodash';
 
 import { Link } from 'react-router-dom';
 
@@ -59,7 +58,7 @@ function CocktailGlass() {
 
        <div className="loading-bar-container">
          {
-           loading ? ( <img src={loadingbar}/>): (<div></div>)
+           loading ? ( <img src={loadingbar} alt="loading"/>): (<div></div>)
          }
         
 
@@ -87,7 +86,7 @@ function CocktailGlass() {
                 
                 <div className="image-container" >
 
-                    <img src={item.strDrinkThumb}/>
+                    <img src={item.strDrinkThumb} alt="drink"/>
                     <p className="drink-info">{item.strDrink}</p>
 
 
